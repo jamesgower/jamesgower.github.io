@@ -355,7 +355,7 @@ body {
     width: 100%;
     background: #4286f4;
     display: block;
-    height: 52px;
+    min-height: 50px;
 }
 
 .stars {
@@ -441,4 +441,24 @@ figure {
     -webkit-transition: -webkit-transform 0.2s;
     -moz-transition: -moz-transform 0.2s;
     -o-transition: -o-transform 0.2s;
+}
+
+#portfolio {
+	padding-bottom: 40px;
+}
+
+#contactTop {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.icons {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 80px;
+    display: inline-block;
+    padding: 10px;
 }
