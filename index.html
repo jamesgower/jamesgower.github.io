@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Gower's Portfolio</title>
+
+    <!-- HTML shim and respond.js for IE8 support -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Animate.css -->
+    <!--  JQuery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Boostrap 4 -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Stylesheets -->
+    <link href="style/style.css" rel="stylesheet">
+    <!-- Typed.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.js"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Coming+Soon|Neucha|Rock+Salt|Oswald" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://java.com/js/dtjava.js."></script>
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <!-- Home Page -->
+    <div id="homepage">
+        <!-- Nav Bar Home -->
+        <nav class="navbar navbar-home navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">GowerDesigns</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a class="home">Home</a></li>
+                        <li class="dropdown navBtn">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About Me<span class="caret"></span></a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="skills">Skills</a></li>
+                                <li><a class="whatIDo">What I Do</a></li>
+                                <li><a class="portfolio">Portfolio</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="contactMe">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Cover Page -->
+        <div class="container-fluid" id="homepageContain">
+            <img src="img/me.jpg" class="img-responsive meImg animated zoomIn" />
+
+            <div class="animated bounceInRight">
+                <h1 id="name">Hi, I'm James. I design &amp; build</h1>
+            </div>
+            <h2 id="handle"> <span id="typed"></span></h2>
+
+            <div class="page-scroll">
+                <a href="#" class="btn btn-circle">
+                    <i id="arrow" class="fa fa-angle-down fa-2x animated bounce infinite"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup Nav-Bar -->
+    <nav class="navbar navbar-default" id="nav-bar-popup">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsePop">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar whiteIcon"></span>
+                        <span class="icon-bar whiteIcon"></span>
+                        <span class="icon-bar whiteIcon"></span>
+                    </button>
+                <a class="navbar-brand" href="#">GowerDesigns</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapsePop">
+                <ul class="nav navbar-nav">
+                    <li><a class="home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About Me<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="skills">Skills</a></li>
+                            <li><a class="whatIDo">What I Do</a></li>
+                            <li><a class="portfolio">Portfolio</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="seperator" id="skillsTop"> </div>
+    <!-- Skills -->
+    <div class="container" id="skills">
+        <h1 class="header text-center">SKILLS</h1>
+        <p class="text">Here some of the skills I have a acquired throughout my programming journey! I have become proficient in many front-end languages such as HTML, CSS and JavaScript. I also spent many years working on object-oriented programming languages such as Java. I also completed an android development course and am confident in being able to deliver high quality android applications. I am currently learning many different frameworks and libraries to master my JavaScript skillset. Examples of my programming abilities can be found on my GitHub repository <a href="https://github.com/jamesgower">here</a>.</p>
+        <div class="row">
+            <div class="col-md-4 col-xs-6 skill">
+                <div class="skillSet">
+                    <img class="skillImg" src="img/html5.png">
+                    <h3 class="title">HTML5</h3>
+                    <p class="text"></p>
+                    <img class="stars" src="img/fivestar.png">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6 skill">
+                <div class="skillSet">
+                    <img class="skillImg" src="img/css.png">
+                    <h3 class="title">CSS3</h3>
+                    <img class="stars" src="img/fivestar.png">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6 skill">
+                <div class="skillSet">
+                    <img class="skillImg" src="img/javascript.png">
+                    <h3 class="title">JavaScript</h3>
+                    <img class="stars" src="img/fourstar.png">
+                </div>
+            </div>
+
+            <div class="col-md-4 col-xs-6 skill">
+                <div class="skillSet">
+                    <img class="skillImg" src="img/java.png">
+                    <h3 class="title">Java</h3>
+                    <img class="stars" src="img/fourstar.png">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6 skill">
+                <div class="skillSet">
+                    <img class="skillImg" src="img/python.png">
+                    <h3 class="title">Python</h3>
+                    <img class="stars" src="img/threestar.png">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6 skill">
+                <div class="skillSet">
+                    <img class="skillImg" src="img/android.png">
+                    <h3 class="title">Android</h3>
+                    <img class="stars" src="img/threestar.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="seperator" id="whatIDoTop"></div>
+    <!-- What I Do -->
+    <div class="container" id="whatIDo">
+        <h1 class="header text-center">WHAT I DO</h1>
+        <div class="row rowHeight">
+            <div class="col-md-5 col-xs-6 whatIDoCol">
+                <img class="whatIDoImg" src="https://thewineingercompany.com/wp-content/uploads/2017/10/meeting-peoples-1080x625.png">
+            </div>
+            <div class="col-md-7 col-xs-6 whatIDoCol">
+                <h3 class="title">PLANNING</h3>
+                <p class="text">The first step is to build a plan to fulfill both the users requirements and timeframes for completion. I do this by collaborating with clients and peers to grasp what the best course of action is. I strive to deliver throrough planning of user concepts before beginning to sketch out wireframes of the website, so everything can built to the highest quality, within a reasonable timeframe.</p>
+
+            </div>
+        </div>
+        <div class="row rowHeight">
+            <div class="col-md-7 col-xs-6 whatIDoCol">
+                <h3 class="title">DESIGN IDEAS &amp; WIREFRAMING</h3>
+                <p class="text">The next step is one of the most important in whole web development process - designing. This is where I will build design ideas based on the users requirements, as agreed upon in the planning stage. If you already have an idea of what you wish the website to look like, then this is where I will set in stone what the design of the website shall be. This is also where you can define different features and functionality which must be included in the design process. All wireframes and design concepts are fully agreed upon by both parties before continuing. </p>
+            </div>
+            <div class="col-md-5 col-xs-6 whatIDoCol">
+                <img class="whatIDoImg" src="http://bytrix.in/wp-content/uploads/2014/04/website-sketch-services.png">
+            </div>
+        </div>
+        <div class="row rowHeight">
+            <div class="col-md-5 col-xs-6 whatIDoCol">
+                <img class="whatIDoImg" src="http://two4seven.com/wp-content/uploads/2016/05/laptop-mockup.png">
+            </div>
+            <div class="col-md-7 col-xs-6 whatIDoCol">
+                <h3 class="title">CODING</h3>
+                <p class="text">The final step for the development process is the coding. I tend to code in HTML(5), CSS(3) and JavaScript, with a hint of jQuery in there too. I am also able to create databases in mySQL if there is a need for one - e.g if there needs to be a database setup so you can easily know the stock from your shop, or something of the sort.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="seperator" id="portfolioTop"></div>
+    <div class="container" id="portfolio">
+        <h1 class="title">PORTFOLIO</h1>
+        <h3 class="subtitle title">Web Development Projects on FreeCodeCamp.org</h3>
+        <p class="text">Here are a few projects that I have created during my web development career. All of the images can be clicked to obtain a working pen that can show the functionality and features of each individual project. This will be updated as and when I complete various projects.</p>
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="figureContain">
+                    <figure>
+                        <a href="https://codepen.io/jamesgower/full/zEQKeN/" target="_blank">
+                            <img id="calc" class="portImg" src="img/calculator.png">
+                        </a>
+                        <figcaption>Calculator <br>-JavaScript, html5 &amp; css3-</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="figureContain">
+                    <figure>
+                        <a href="https://codepen.io/jamesgower/full/yzoQqo/" target="_blank">
+                            <img id="wiki" class="portImg" src="img/wiki.png">
+                        </a>
+                        <figcaption>Wikipedia API<br>-jQuery, html5 &amp; css3-</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="figureContain">
+                    <figure>
+                        <a href="https://codepen.io/jamesgower/full/pWPdQO/" target="_blank">
+                            <img id="quote" class="portImg" src="img/quote.png">
+                        </a>
+                        <figcaption>Quote Generator<br>-JavaScript, html5 &amp; css3-</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+
+        <h3 class="subtitle title">Java</h3>
+        <p class="text">Here are screenshots of a projects that I have completed during my time in Java development. Unfortunately, viewing java files on website has been deprecated, so downloadable .jar files are available on my GitHub page. All souce code can be obtained by clicking on each image. Larger portfolio can be obtained by contacting me, which can be found in the 'Contact Me' tab.</p>
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="figureContain">
+                    <figure>
+                        <a href="https://github.com/jamesgower/Vending-Machine-Simulator" target="_blank">
+                            <img id="vendingMachine" class="portImg" src="img/vendingMachine.png">
+                        </a>
+                        <figcaption>Vending Machine Simulator</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="figureContain">
+                    <figure>
+                        <img id="temp" class="portImg" src="img/temp.png">
+                        <figcaption>Temperature Converter GUI</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4">
+
+                <div class="figureContain">
+                    <figure>
+                        <a href="https://github.com/jamesgower/Vending-Machine-Simulator">
+                            <img id="rockpaperscissors" class="portImg" src="img/rps.png">
+                        </a>
+                        <figcaption>Rock, Paper, Scissors GUI</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <!-- Contact Form -->
+    <div class="seperator" id="contactTop">
+    
+        <h1 class="title">CONTACT ME</h1>
+        <p class="text">I am not currently seeking new clients, however if you have any questions or enquiries, all of the below contact options are a good way to do so. Twitter or Mail are likely to get a quicker reply, although I do try and respond to messages within 48 hours no matter which method you choose.</p>
+        
+        <div class="icons">
+        <img class="icon" src="img/facebook.png"><img class="icon" src="img/twitter.png"><img class="icon" src="img/reddit.png"><img  class="icon" src="img/mail.png">
+        </div>
+    </div>
+
+        <!-- Typed.js script for home page -->
+        <script src="scripts/typed.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>

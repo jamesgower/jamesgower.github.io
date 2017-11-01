@@ -1,0 +1,444 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+.container {
+    background: white;
+    padding: 15px;
+}
+
+/* Main Page */
+#homepage {
+    background: url(../img/codebg.jpg) no-repeat center center !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    background: 100% 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#homepageContain {
+    width: 60vw;
+    padding-top: 20vh;
+}
+
+#imgNav {
+    width: 50px
+}
+
+#typed {
+    color: white;
+}
+
+/* Change font size based on screen size */
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    .navbar {
+        font-size: 0.8em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    #handle, #name  {
+        font-size: 0.8em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    .navbar  {
+        font-size: 1.0em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    .navbar {
+        font-size: 1.2em;
+    }
+}
+
+.skillSet > .title {
+    text-decoration: none !important; 
+}
+
+.meImg {
+    display: block;
+    max-width: 220px;
+    max-height: 220px;
+    width: 40vw;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name {
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+#handle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+
+}
+
+/* Change font size based on screen size */
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    #handle, #name {
+        font-size: 1.5em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    #handle, #name  {
+        font-size: 2.2em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    #handle, #name  {
+        font-size: 2.5em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    #handle, #name  {
+        font-size: 3.2em;
+    }
+}
+
+
+/*Custom cursor animation*/
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.btns {
+    display: block;
+    width: 400px;
+    margin: 0;
+    padding: 30px 0 0 30px;
+}
+
+
+/* Home Nav Bar */
+#nav-background {
+    height: 200px;
+    background: #4286f4;
+    width: 100%;
+    display: block;
+    
+}
+.dropdown-menu {
+    background: none;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+.dropdown-menu li>a {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: "Alex Brush", cursive;
+    font-size: 1.8em;
+}
+
+#nav-bar-popup .navbar-header .navbar-brand {
+    color: white !important;
+    font-family: "Alex Brush", cursive;
+    font-size: 1.8em;
+    padding-left: 18vw;
+}
+
+#nav-bar-popup {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-home {
+    background: url(../img/codebgblur.jpg) no-repeat center center !important;
+    background: none;
+    border: none;
+    padding-left: 18vw;
+    font-family: "Oswald", sans-serif;
+    border-bottom: 2px solid white;
+}
+
+.dropdown-menu a:hover {
+    background: midnightblue !important;
+}
+
+.dropdown ul {
+    background: url(/img/codebgblur.jpg) no-repeat center fixed;
+}
+
+.navar-home .navbar-header a {
+    font-family: "Alex Brush";
+    color: white !important;
+    font-size: 2.0em
+}
+
+.navbar-brand li a {
+    color: white;
+}
+
+.navbar-nav {
+    float: right;
+    padding-right: 18vw;
+}
+
+.navbar ul li  {
+    color: white;
+}
+
+.nav a {
+    color: white !important;
+    cursor: pointer;
+}
+
+.whiteIcon {
+    background: white !important;	
+}
+
+/* Pop-up Nav Bar */
+
+#nav-bar-popup {
+    background: #4286f4;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar-collapsePop .dropdown-menu {
+     background: #4286f4;
+}
+
+#navbar-popup .dropdown-menu a {
+    font-family: "Alex Brush";
+    color: white !important;
+    font-size: 2.0em;
+    background: none;
+}
+
+/* Pulsating Arrow */
+
+#arrowContainer {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#arrow {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.page-scroll {
+    width: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-transition: background .4s ease-in-out;
+    -moz-transition: background .4s ease-in-out;
+    transition: background .4s ease-in-out;
+}
+
+/* Skills */
+.imgContain {
+    width: 100px;
+    margin: auto;
+}
+#skills {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 8px;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+.text {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.skillImg {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -15px;
+}
+
+.skillSet {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px
+}
+
+.seperator {
+    width: 100%;
+    background: #4286f4;
+    display: block;
+    height: 52px;
+}
+
+.stars {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.header {
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* What I Do */
+.whatIDoCol {
+    padding: 20px;
+    display: flex;
+    height: 100%;
+
+}
+
+.whatIDoImg {
+    width: 100%; 
+    padding: 20px;
+}
+
+.rowHeight {
+    display: table;
+    padding: 10px;
+}
+
+.rowHeight .whatIDoCol {
+	float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Portfolio */
+.subtitle {
+    font-size: 2em !important;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+.portImg {
+    width: 100%;
+    padding: 15px;
+}
+
+.figureContain {
+    text-align: center;
+}
+a, figure {
+    display: inline-block;
+}
+figcaption {
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #4286f4;
+    font-size: 1.2em;
+    margin-top: -10px
+
+}
+figure {
+    padding: 5px;
+}
+.portImg:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.portImg {
+    transition: transform 0.2s;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
+}
