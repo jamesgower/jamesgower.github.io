@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $("#nav-bar-popup").hide();
+    $("#calcModal").data("bs.modal")
     
     //Pop-up Fixed Nav-bar script to appear on scrolling past homepage
     $(document).scroll(function () {
@@ -52,12 +53,14 @@ $(document).ready(function () {
 
     // Calculator Script //
     var answerGiven = false;
+    var sumToComplete = false;
     $(".calcBtn").click(function() {
         var val = $(this).val();
 
         if(val === '+' || val === '-' || val === '/' || val === '*') {
             $("#sums").append($("#outcome").text() + val);
-            $("#outcome").text(" ");
+            $("#outcome").text(val);
+            sumToComplete = true;
         }
         else if(val === "ce"){
             var cancel = $("#outcome").text().slice(0,-1);
@@ -75,19 +78,24 @@ $(document).ready(function () {
             var equation = $("#sums").text();
             var answer = math.eval(equation);
             $("#outcome").text(answer);
-            $("#sums").empty();
             answerGiven = true;
         }
         else {
             if(answerGiven) {
                 $("#outcome").text("");
+                $("#sums").text("");
                 answerGiven = false;
                 $("#outcome").append(val);
             }
+            else if(sumToComplete) {
+                sumToComplete = false;
+                $("#outcome").text("");
+                $("#outcome").append(val);
+            }
+
             else {
                 $("#outcome").append(val);
             }
         }
     });
-
 });
