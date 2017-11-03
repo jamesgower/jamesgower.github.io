@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James Gower"s Portfolio</title>
+    <title>James Gower's Portfolio</title>
 
     <!-- HTML shim and respond.js for IE8 support -->
     <!--[if lt IE 9]>
@@ -19,8 +19,10 @@
     <!-- Boostrap 4 -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Stylesheets -->
-
+    <link href="style/calc.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
+    <link href="style/wiki.css" rel="stylesheet">
+    <link href="style/quote.css" rel="stylesheet">
     <!-- Typed.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.js"></script>
     <!-- Font Awesome -->
@@ -31,9 +33,11 @@
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Orbitron|Coming+Soon|Neucha|Rock+Salt|Oswald" rel="stylesheet">
     <!-- Calculator styles & scripts -->
     <script src="scripts/math.min.js"></script>
-    <!-- Home Script -->
+    <!-- My Script -->
     <script src="scripts/script.js"></script>
-    <script src="wiki.js"></script>
+    <script src="scripts/wiki.js"></script>
+    <script src="scripts/quote.js"></script>
+    <script src="scripts/calc.js"></script>
 
 
 </head>
@@ -236,7 +240,7 @@
             <div class="col-xs-12 col-md-6 col-lg-4">
                 <div class="figureContain">
                     <figure>
-                        <a href="https://codepen.io/jamesgower/full/pWPdQO/" target="_blank">
+                        <a type="button" data-toggle="modal" data-target="#quoteModal">
                             <img id="quote" class="portImg" src="img/quote.png">
                         </a>
                         <figcaption>Quote Generator<br>-JavaScript, html5 &amp; css3-</figcaption>
@@ -363,7 +367,36 @@
             </div>
         </div>
 
+        <div class="modal fade" id="quoteModal">
 
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                        <h4 class="modal-title text-center"><span class="glyphicon icon-calculator"></span>Wikipedia Search</h4>
+                    </div>
+
+                    <div class="modal-body" id="quoteBody">
+
+                        <div class="quote">
+                            <i id="mark1" class="fa fa-quote-left"></i><span id="quoteDisplay">  Life is about making an impact, not making an income.  </span><i id="mark2" class="fa fa-quote-right"></i>
+                            <p id="quoteAuthor">- Kevin Kruse</p>
+                            <button id="btn" onclick="newQuote()">New Quote</button>
+                        </div>
+                    </div>
+
+                        <div class="modal-footer">
+                            <a href="https://codepen.io/jamesgower/pen/pWPdQO" target="_blank">
+                            <button type="button" class="btn btn-primary" >View Source Code</button>
+                        </a>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Done</button>
+                        </div>
+
+                </div>
+            </div>
+        </div>
 
         <h3 class="subtitle title">Java</h3>
         <p class="text">Here are screenshots of a projects that I have completed during my time in Java development. Unfortunately, viewing java files on website has been deprecated, so downloadable .jar files are available on my GitHub page. All souce code can be obtained by clicking on each image. Larger portfolio can be obtained by contacting me, which can be found in the "Contact Me" tab.</p>
