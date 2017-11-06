@@ -396,12 +396,7 @@ body {
 }
 
 /* What I Do */
-
-.whatIDoCol {
-    padding: 20px;
-    display: flex;
-    height: 100%;
-
+.row {
 }
 
 .whatIDoImg {
@@ -409,15 +404,23 @@ body {
     padding: 20px;
 }
 
-.rowHeight {
-    display: table;
-    padding: 10px;
+
+.whatIDoCol {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    height: 100%;
+    margin: 0 auto;
 }
 
-.rowHeight .whatIDoCol {
-    float: none;
-    display: table-cell;
-    vertical-align: middle;
+.col-left {
+    float: left;
+    display: inline-block;
+}
+
+col-right {
+    float: right;
+    display: inline-block;
 }
 
 /* Portfolio */
@@ -491,4 +494,3 @@ figure {
     padding: 10px;
 }
 
-/* Wiki */

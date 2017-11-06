@@ -33,6 +33,7 @@
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Orbitron|Coming+Soon|Neucha|Rock+Salt|Oswald" rel="stylesheet">
     <!-- Calculator styles & scripts -->
     <script src="scripts/math.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
     <!-- My Script -->
     <script src="scripts/script.js"></script>
     <script src="scripts/wiki.js"></script>
@@ -179,35 +180,35 @@
     <!-- What I Do -->
     <div class="container" id="whatIDo">
         <h1 class="header text-center">WHAT I DO</h1>
-        <div class="row rowHeight">
-            <div class="col-md-5 col-xs-6 whatIDoCol">
+        <div class="row">
+            <div class="col-xs-12 col-sm-5 whatIDoCol col-left">
                 <img class="whatIDoImg" src="https://thewineingercompany.com/wp-content/uploads/2017/10/meeting-peoples-1080x625.png">
             </div>
-            <div class="col-md-7 col-xs-6 whatIDoCol">
+            <div class="col-xs-12 col-sm-7 whatIDoCol col-right">
                 <h3 class="title">PLANNING</h3>
                 <p class="text">The first step is to build a plan to fulfill both the users requirements and timeframes for completion. I do this by collaborating with clients and peers to grasp what the best course of action is. I strive to deliver throrough planning of user concepts before beginning to sketch out wireframes of the website, so everything can built to the highest quality, within a reasonable timeframe.</p>
 
             </div>
         </div>
-        <div class="row rowHeight">
-            <div class="col-md-7 col-xs-6 whatIDoCol">
+        <div class="row" id="design">
+            <div class="col-sm-7 col col-xs-12 whatIDoCol" id="designText">
                 <h3 class="title">DESIGN IDEAS &amp; WIREFRAMING</h3>
                 <p class="text">The next step is one of the most important in whole web development process - designing. This is where I will build design ideas based on the users requirements, as agreed upon in the planning stage. If you already have an idea of what you wish the website to look like, then this is where I will set in stone what the design of the website shall be. This is also where you can define different features and functionality which must be included in the design process. All wireframes and design concepts are fully agreed upon by both parties before continuing. </p>
             </div>
-            <div class="col-md-5 col-xs-6 whatIDoCol">
+            <div class="col-sm-5 col-xs-12 whatIDoCol" id="designImg">
                 <img class="whatIDoImg" src="http://bytrix.in/wp-content/uploads/2014/04/website-sketch-services.png">
             </div>
         </div>
-        <div class="row rowHeight">
-            <div class="col-md-5 col-xs-6 whatIDoCol">
-                <img class="whatIDoImg" src="http://two4seven.com/wp-content/uploads/2016/05/laptop-mockup.png">
-            </div>
-            <div class="col-md-7 col-xs-6 whatIDoCol">
-                <h3 class="title">CODING</h3>
-                <p class="text">The final step for the development process is the coding. I tend to code in HTML(5), CSS(3) and JavaScript, with a hint of jQuery in there too. I am also able to create databases in mySQL if there is a need for one - e.g if there needs to be a database setup so you can easily know the stock from your shop, or something of the sort.</p>
+        <div class="row">
+                <div class="col-sm-5 col-xs-12 whatIDoCol">
+                    <img class="whatIDoImg" src="http://two4seven.com/wp-content/uploads/2016/05/laptop-mockup.png">
+                </div>
+                <div class="col-sm-7 col-xs-12 whatIDoCol">
+                    <h3 class="title">CODING</h3>
+                    <p class="text">The final step for the development process is the coding. I tend to code in HTML(5), CSS(3) and JavaScript, with a hint of jQuery in there too. I am also able to create databases in mySQL if there is a need for one - e.g if there needs to be a database setup so you can easily know the stock from your shop, or something of the sort.</p>
+                </div>
             </div>
         </div>
-    </div>
 
     <div class="seperator" id="portfolioTop"></div>
     <div class="container" id="portfolio">
@@ -387,12 +388,12 @@
                         </div>
                     </div>
 
-                        <div class="modal-footer">
-                            <a href="https://codepen.io/jamesgower/pen/pWPdQO" target="_blank">
+                    <div class="modal-footer">
+                        <a href="https://codepen.io/jamesgower/pen/pWPdQO" target="_blank">
                             <button type="button" class="btn btn-primary" >View Source Code</button>
                         </a>
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Done</button>
-                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Done</button>
+                    </div>
 
                 </div>
             </div>
