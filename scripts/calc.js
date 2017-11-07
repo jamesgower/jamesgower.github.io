@@ -1,4 +1,4 @@
-$(document).ready(function() {
+ $(document).ready(function() {
     var answerGiven = false;
     var sumToComplete = false;
     $(".calcBtn").click(function() {

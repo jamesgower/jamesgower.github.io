@@ -1,0 +1,201 @@
+html body {
+    background: url("https://images8.alphacoders.com/702/702959.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    font-family: 'Neucha';
+}
+
+.contain {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    border: 4px solid midnightblue;
+    border-radius: 50%;
+    max-height: 150px;
+    max-width: 150px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+
+}
+
+.addBtns {
+        font-family: 'Neucha' !important;
+
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    margin-top: -20px;
+}
+
+.status {
+    padding-top: 25px;
+    line-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.status span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1em;
+    width: 100%;
+}
+
+.status span p {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 15px;
+    border: 4px solid blue;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.preview {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    vertical-align: middle;
+
+}
+
+.logoContain {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.buttons {
+    height: 40px;
+    width: 40px;
+}
+
+#title {
+    background-color: white;
+    border: 4px solid lightblue;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.previewTitle {
+    padding-top: 5px;
+    margin-bottom: -10px;
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.streamerTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.previews {
+    height: 100%;
+    display: inline-block;
+}
+
+.title-container {
+    width: 50%;
+    height: auto;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+.switchBtn {
+    max-height: 60px;
+    max-width: 60px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.btn-container {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.addBtn {
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.return {
+    font-weight: 100 !important;
+}
+
+/* Font Resizing */
+@media all and (min-width: 1200px) { /* screen size above 1200px */
+    p {
+        font-size: 1.1em;
+    }
+    .title {
+        font-size: 2.4em;
+    }
+}
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    p {
+        font-size: 1.0em; /* 1.5x default size */
+    }
+        .title {
+        font-size: 2.0em;
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    p {
+        font-size: 0.8em; /* 1.2x default size */
+        }
+    .title {
+        font-size: 1.6em;
+    }
+}
+@media all and (max-width: 500px) { /* screen size until 500px */
+    p {
+        font-size: 0.6em; /* 0.8x default size */
+        }
+    .title {
+        font-size: 1.0em;
+    }
+}
