@@ -10,6 +10,10 @@ html body {
     font-family: 'Neucha';
 }
 
+.name {
+	font-weight: bold;
+}
+
 .contain {
     width: 50%;
     margin-left: auto;
@@ -38,7 +42,6 @@ html body {
 
 .name {
     text-align: center;
-    position: relative;
     margin-top: -20px;
 }
 
