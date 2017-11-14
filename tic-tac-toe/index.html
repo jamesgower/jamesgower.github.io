@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+    <!--  JQuery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="startgame">
+        <div id="title">Welcome to Tic-Tac-Toe!</div>
+        <div id="subtitle">Would you like to play against another player, or try your luck against the computer?</div>
+        <div class="choiceContainer">
+            <div class="choicePlayer" id="singlePlayer" type="button">One Player</div>
+            <div class="choicePlayer" id="twoPlayer" type="button">Two Player</div>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td class="cell" id="0"></td>
+            <td class="cell" id="1"></td>
+            <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="3"></td>
+            <td class="cell" id="4"></td>
+            <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="6"></td>
+            <td class="cell" id="7"></td>
+            <td class="cell" id="8"></td>
+        </tr>
+    </table>
+    <div class="endgame">
+        <div class="text"></div>
+    </div>
+    <button onclick="startGame()">Replay</button>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
