@@ -1,24 +1,52 @@
 * {
     font-family: 'Neucha', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
+html {
+    background: url("https://img.clipartxtras.com/a8f14587ff6e64c6e5138c33bf2da0d9_grass-clipart-background-grass-background-clipart-93-5431-sky-and-grass-background-clipart_2000-1052.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#border {
+    border: 30px solid transparent;
+    border-radius: 20px;
+    border-image: url("http://4.bp.blogspot.com/-X6Di7CPFPz8/Up5yIqS_NdI/AAAAAAAACdA/DjKB8Ir399k/s1600/Walnut-Wood-Flooring-002.jpg") 30 30 round;
+    position: absolute;
+    left: 50%;
+    margin-left: -340px;
+    top: 72px;
+    z-index: 100;
+    width: 624px;
+    height: 623px;
+    z-index: -1;
+}
+
+
 td {
-    border: 5px solid #333;
-    height: 200px;
-    width: 200px;
+    border: 6px solid white;
+    height: 205px;
+    width: 204px;
     text-align: center;
     vertical-align: middle;
     font-family: "Comic Sans MS", cursive;
-    font-size: 120px;
+    font-size: 140px;
     cursor: pointer;
+    color: white;
 }
 
 table {
+    background: url("http://www.powerpointhintergrund.com/uploads/blackboard-background-24.jpg");
     border-collapse: collapse;
     position: absolute;
     left: 50%;
     margin-left: -310px;
-    top: 50px;
+    top: 100px;
 }
 
 table tr:first-child td {
@@ -40,8 +68,8 @@ table tr td:last-child {
 .endgame {
     display: none;
     width: 300px;
-    top: 280px;
-    background-color: skyblue;
+    top: 410px;
+    background-color: #4286f4;
     position: absolute;
     left: 50%;
     margin-left: -150px;
@@ -51,6 +79,16 @@ table tr td:last-child {
     border-radius: 5px;
     color: white;
     font-size: 2em;
+    opacity: .80;
+    /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=80);
+    /* IE lt 8 */
+    -ms-filter: "alpha(opacity=80)";
+    /* IE 8 */
+    -khtml-opacity: .80;
+    /* Safari 1.x */
+    -moz-opacity: .80;
+    /* FF lt 1.5, Netscape */
 }
 
 .startgame {
@@ -58,8 +96,8 @@ table tr td:last-child {
     left: 50%;
     margin-left: -310px;
     background: white;
-    top: 50px;
-    z-index: 3;
+    top: 100px;
+    z-index: 100;
     border: 6px solid black;
     width: 614px;
     height: 614px;
@@ -72,13 +110,13 @@ table tr td:last-child {
 }
 
 #subtitle {
-	text-align: center;
+    text-align: center;
     font-size: 2em;
     padding: 30px;
 }
 
 .choicePlayer {
-	display: inline-block;
+    display: inline-block;
     padding: 10px;
     border: 2px solid black;
     border-radius: 20px;
@@ -86,7 +124,7 @@ table tr td:last-child {
 }
 
 .choicePlayer:hover {
-	border-color: blue;
+    border-color: blue;
 }
 
 .choiceContainer {
@@ -99,9 +137,202 @@ table tr td:last-child {
 }
 
 #singlePlayer {
-	float: left;
+    float: left;
 }
 
 #twoPlayer {
     float: right;
+}
+
+.choice {
+    position: absolute;
+    left: 50%;
+    margin-left: -310px;
+    background: white;
+    top: 100px;
+    z-index: 4;
+    border: 6px solid black;
+    width: 614px;
+    height: 614px;
+}
+
+.aiChoice {
+    display: none;
+}
+
+.player {
+    width: 304px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.player2 {
+    float: right;
+}
+
+.playerName {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.playerChoice {
+    display: block;
+    font-size: 4em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.name {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 120px;
+}
+
+.buttons {
+    margin-top: 40px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+}
+
+#buttonContainer {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#switchChoice {
+    float: left;
+}
+
+#replayBtn {
+    position: absolute;
+    display: block;
+    padding: 7px;
+    width: 80px;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: 110px;
+    float: none;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#resetBtn {
+    position: absolute;
+    display: block;
+    padding: 7px;
+    width: 50px;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: 70px;
+    float: none;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#confirm {
+    float: right;
+}
+
+.title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 450px;
+    font-size: 1.4em;
+    margin-top: 100px;
+}
+
+.scores {
+    margin-top: 800px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    height: 200px;
+    background: url("http://www.powerpointhintergrund.com/uploads/green-blackboard-background-12.jpg");
+    background-size: 100% 100%;
+    color: white;
+}
+
+#ai {
+    margin-top: 25px;
+}
+
+.diff {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.aiChoice {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#easy {
+    float: left;
+}
+
+#normal {
+    left: 50%;
+    margin-left: 70px;
+    border-color: orange;
+}
+
+#unbeatable {
+    float: right;
+}
+
+#p1score,
+#p2score {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-family: Nothing You Could Do !important;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#p1 {
+    display: inline-block;
+    width: 180px;
+    float: left;
+    margin-top: 50px;
+}
+
+#p2 {
+    margin-top: 50px;
+    display: inline-block;
+    width: 180px;
+    float: right;
+}
+
+#player1name,
+#player2name {
+    font-size: 1.8em;
+    font-family: Nothing You Could Do !important;
 }
