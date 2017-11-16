@@ -1,3 +1,4 @@
+/* global $, document, location */
 /* jshint esnext: true */
 var noPlayers;
 var difficulty = 1;
