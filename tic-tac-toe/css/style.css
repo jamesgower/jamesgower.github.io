@@ -19,23 +19,23 @@ html {
     border-image: url("http://4.bp.blogspot.com/-X6Di7CPFPz8/Up5yIqS_NdI/AAAAAAAACdA/DjKB8Ir399k/s1600/Walnut-Wood-Flooring-002.jpg") 30 30 round;
     position: absolute;
     left: 50%;
-    margin-left: -340px;
+    transform: translateX(-50%);
     top: 72px;
     z-index: 100;
-    width: 624px;
-    height: 623px;
+    width: 492px;
+    height: 492px;
     z-index: -1;
 }
 
 
 td {
     border: 6px solid white;
-    height: 205px;
-    width: 204px;
+    height: 160px;
+    width: 160px;
     text-align: center;
     vertical-align: middle;
     font-family: "Comic Sans MS", cursive;
-    font-size: 140px;
+    font-size: 110px;
     cursor: pointer;
     color: white;
 }
@@ -45,8 +45,8 @@ table {
     border-collapse: collapse;
     position: absolute;
     left: 50%;
-    margin-left: -310px;
-    top: 100px;
+    transform: translateX(-50%);
+    top: 102px;
 }
 
 table tr:first-child td {
@@ -68,11 +68,11 @@ table tr td:last-child {
 .endgame {
     display: none;
     width: 300px;
-    top: 410px;
+    top: 280px;
     background-color: #4286f4;
     position: absolute;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -130px;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -94,24 +94,24 @@ table tr td:last-child {
 .startgame {
     position: absolute;
     left: 50%;
-    margin-left: -310px;
+    transform: translateX(-50%);
     background: white;
-    top: 100px;
+    top: 102px;
     z-index: 100;
     border: 6px solid black;
-    width: 614px;
-    height: 614px;
+    width: 480px;
+    height: 480px;
 }
 
 #title {
     text-align: center;
-    font-size: 3.3em;
-    margin-top: 180px;
+    font-size: 2.4em;
+    margin-top: 120px;
 }
 
 #subtitle {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.8em;
     padding: 30px;
 }
 
@@ -147,21 +147,22 @@ table tr td:last-child {
 .choice {
     position: absolute;
     left: 50%;
-    margin-left: -310px;
+    transform: translateX(-50%);
     background: white;
-    top: 100px;
+    top: 102px;
     z-index: 4;
     border: 6px solid black;
-    width: 614px;
-    height: 614px;
+    width: 480px;
+    height: 480px;
 }
 
 .aiChoice {
     display: none;
+    margin-top: -30px;
 }
 
 .player {
-    width: 304px;
+    width: 240px;
     margin-top: 50px;
     display: inline-block;
     margin-left: auto;
@@ -169,7 +170,7 @@ table tr td:last-child {
 }
 
 
-.player2 {
+#player2 {
     float: right;
 }
 
@@ -177,9 +178,9 @@ table tr td:last-child {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 200px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 .playerChoice {
@@ -188,7 +189,7 @@ table tr td:last-child {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 80px;
 }
 
 .name {
@@ -199,7 +200,7 @@ table tr td:last-child {
 }
 
 .buttons {
-    margin-top: 40px;
+    margin-top: 20px;
     border: 2px solid black;
     display: inline-block;
     padding: 10px;
@@ -257,12 +258,13 @@ table tr td:last-child {
     display: block;
     width: 450px;
     font-size: 1.4em;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .scores {
-    margin-top: 800px;
+    margin-top: 700px;
     width: 400px;
+    margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -279,7 +281,7 @@ table tr td:last-child {
 
 .diff {
     display: inline-block;
-    width: 100px;
+    width: 80px;
     text-align: center;
     border: 2px solid black;
     padding: 5px;
@@ -295,16 +297,18 @@ table tr td:last-child {
 
 #easy {
     float: left;
+    margin-left: 20px;
 }
 
 #normal {
     left: 50%;
-    margin-left: 70px;
+    margin-left: 80px;
     border-color: orange;
 }
 
 #unbeatable {
     float: right;
+    margin-right: 20px;
 }
 
 #p1score,

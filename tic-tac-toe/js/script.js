@@ -12,6 +12,7 @@ var p2score = 0;
 var aiscore = 0;
 
 $(document).ready(function () {
+    $(".choice").hide();
     $("#singlePlayer").click(function () {
         $(".startgame").fadeOut(1000);
         $("#player2").remove();
@@ -20,6 +21,7 @@ $(document).ready(function () {
         $(".title").css("margin-top", "70px");
         $(".title").text("Enter your name and choose the AI difficulty!");
         $(".choice").fadeIn(1000);
+        $("#ai").fadeIn(500);
         noPlayers = 1;
     });
     $("#twoPlayer").click(function () {
