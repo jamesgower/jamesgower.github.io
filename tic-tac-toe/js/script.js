@@ -26,6 +26,7 @@ $(document).ready(function () {
         noPlayers = 1;
     });
     $("#twoPlayer").click(function () {
+        $('.choice').fadeIn(1000);
         $(".aiChoice").remove();
         $(".startgame").fadeOut(1000);
         noPlayers = 2;
@@ -60,7 +61,7 @@ $(document).ready(function () {
             }
             $("#player2name").text("Computer: ");
         } else {
-            if ($("#p1name").val().length === 0) {
+            if ($("#p1name").val() === '') {
                 p1name = "Player 1";
                 $("#player1name").text(p1name);
             } else {
@@ -74,7 +75,7 @@ $(document).ready(function () {
                     huPlayer2 = "O";
                 }
             }
-            if ($("#p2name").val().length === 0) {
+            if ($("#p2name").val() === '') {
                 p2name = "Player 2:";
                 $("#player2name").text(p2name);
             } else {
