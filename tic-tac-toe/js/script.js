@@ -47,7 +47,7 @@ $(document).ready(function () {
     $("#confirm").click(function () {
         if (noPlayers === 1) {
             if ($("#p1name").val().length === 0) {
-                $("#player1name").text("Player 1: ");
+                $("#player1name").text("Player 1:");
             } else {
                 p1name = $("#p1name").val();
                 $("#player1name").text(p1name + ": ");
@@ -76,7 +76,7 @@ $(document).ready(function () {
                 }
             }
             if ($("#p2name").val() === '') {
-                p2name = "Player 2:";
+                p2name = "Player 2";
                 $("#player2name").text(p2name);
             } else {
                 p2name = $("#p2name").val();
