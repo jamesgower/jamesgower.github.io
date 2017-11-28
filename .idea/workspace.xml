@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66393376-0ba4-4243-a076-43b7dc4d773c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jamesgower.github.io.iml" afterPath="$PROJECT_DIR$/.idea/jamesgower.github.io.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,21 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="479" column="79" lean-forward="false" selection-start-line="479" selection-start-column="79" selection-end-line="479" selection-end-column="79" />
+            <state relative-caret-position="281">
+              <caret line="474" column="30" lean-forward="false" selection-start-line="474" selection-start-column="30" selection-end-line="474" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1069">
-              <caret line="421" column="17" lean-forward="false" selection-start-line="421" selection-start-column="17" selection-end-line="421" selection-end-column="17" />
+            <state relative-caret-position="236">
+              <caret line="342" column="25" lean-forward="true" selection-start-line="342" selection-start-column="25" selection-end-line="342" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -53,6 +52,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>icons</find>
+      <find>.text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,9 +61,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/style/style.css" />
         <option value="$PROJECT_DIR$/tic-tac-toe/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/style.css" />
       </list>
     </option>
   </component>
@@ -172,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1511374303826</updated>
       <workItem from="1511374305022" duration="1860000" />
-      <workItem from="1511884661562" duration="3559000" />
+      <workItem from="1511884661562" duration="3842000" />
     </task>
     <task id="LOCAL-00001" summary="updated stylesheet and layout for index.html">
       <created>1511886394973</created>
@@ -192,7 +192,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5419000" />
+    <option name="totallyTimeSpent" value="5702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -274,14 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1069">
-          <caret line="421" column="17" lean-forward="false" selection-start-line="421" selection-start-column="17" selection-end-line="421" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tic-tac-toe/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1377">
@@ -292,8 +284,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="479" column="79" lean-forward="false" selection-start-line="479" selection-start-column="79" selection-end-line="479" selection-end-column="79" />
+        <state relative-caret-position="281">
+          <caret line="474" column="30" lean-forward="false" selection-start-line="474" selection-start-column="30" selection-end-line="474" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="342" column="25" lean-forward="true" selection-start-line="342" selection-start-column="25" selection-end-line="342" selection-end-column="25" />
           <folding />
         </state>
       </provider>

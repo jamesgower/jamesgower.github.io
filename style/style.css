@@ -358,6 +358,16 @@ body {
     font-size: 18px;
 }
 
+.contactMeTxt {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .skillImg {
     margin: 0 auto;
     display: block;
@@ -484,7 +494,7 @@ figure {
 }
 
 .icons {
-    width: 350px;
+    width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
