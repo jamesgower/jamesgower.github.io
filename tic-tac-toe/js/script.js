@@ -134,13 +134,13 @@ function startGame() {
 
 function turnClick(square) {
     if (typeof origBoard[square.target.id] === 'number') {
-        if (!checkTie() && noPlayers == 1) {
+        if (!checkTie() && noPlayers === 1) {
             turn(square.target.id, huPlayer);
         } else {
-            if (currentPlayer == 1 && !checkTie()) {
+            if (currentPlayer === 1 && !checkTie()) {
                 turn(square.target.id, huPlayer);
                 currentPlayer = 2;
-            } else if(currentPlayer == 2 && !checkTie()) {
+            } else if(currentPlayer === 2 && !checkTie()) {
                 turn(square.target.id, huPlayer2);
                 currentPlayer = 1;
             }
