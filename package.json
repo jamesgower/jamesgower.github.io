@@ -6,6 +6,8 @@
   "license": "MIT",
   "homepage": "https://jamesgower.github.io",
   "scripts": {
+    "predeploy": "npm run build:prod",
+    "deploy": "gh-pages -b master -d build",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",

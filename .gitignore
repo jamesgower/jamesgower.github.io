@@ -1,4 +1,5 @@
 node_modules/
-public/dist/
+bundle.js/
+bundle.js.map/
 .env.test
 .env.development
