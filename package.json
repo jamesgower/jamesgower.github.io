@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "James Gower",
   "license": "MIT",
+  "homepage": "https://jamesgower.github.io",
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
