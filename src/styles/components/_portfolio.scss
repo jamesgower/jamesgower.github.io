@@ -1,0 +1,25 @@
+body {
+	background: $off-white;
+}
+
+.portfolio--title {
+	text-align: center;
+	margin: 0 auto;
+	padding: 18px;
+	border-bottom: 3px solid #87C23F;
+	width: 180px;
+}
+
+.portfolio--subtitle {
+	text-align: center;
+	width: 46vw;
+	margin: 20px auto 20px auto;
+}
+
+.grid-list {
+	cursor: pointer !important;
+}
+
+.grid-container {
+	margin: 0 0 50px 0 !important;
+}
